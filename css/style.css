@@ -132,6 +132,63 @@ main .titl {
     font-weight: bold;
 }
 
+.l1 {
+    border: 1px solid #10c9c3;
+    width: 335px;
+    height: 1px;
+    background: #10c9c3;
+    margin: 0 0 0 100px;
+    position: absolute;
+    top: 276px;
+}
+.l11 {
+    border: 1px solid #d8d8d8;
+    width: 163px;
+    height: 1px;
+    background: #d8d8d8;
+    margin: 0 0 0 437px;
+    position: absolute;
+    top: 276px;
+}
+
+.l2 {
+    border: 1px solid #10c9c3;
+    width: 428px;
+    height: 1px;
+    background: #10c9c3;
+    margin: 0 0 0 100px;
+    position: absolute;
+    top: 352px;
+}
+.l22 {
+    border: 1px solid #d8d8d8;
+    width: 70px;
+    height: 1px;
+    background: #d8d8d8;
+    margin: 0 0 0 530px;
+    position: absolute;
+    top: 352px;
+}
+
+.l3 {
+    border: 1px solid #10c9c3;
+    width: 279px;
+    height: 1px;
+    background: #10c9c3;
+    margin: 0 0 0 100px;
+    position: absolute;
+    top: 426px;
+}
+.l33 {
+    border: 1px solid #d8d8d8;
+    width: 219px;
+    height: 1px;
+    background: #d8d8d8;
+    margin: 0 0 0 381px;
+    position: absolute;
+    top: 426px;
+}
+
 .numbers {
     background: #10c9c3;
     width: 100%;
@@ -151,15 +208,9 @@ main .titl {
 
     .numbers1 i {
         font-size: 48px;
-        /*position: absolute;
-    top: 103px;
-    left: 102px;*/
     }
 
 .numbers11 {
-    /*position:absolute;
-    top: 86px;
-    left: 170px;*/
     float: right;
     padding:0 0 0 34px;
 }
@@ -180,15 +231,9 @@ main .titl {
 
 .numbers2 i {
     font-size: 48px;
-    /*position: absolute;
-    top: 103px;
-    left: 403px;*/
 }
 
 .numbers22 {
-    /*position: absolute;
-    top: 86px;
-    left: 469px;*/
     float: right;
     padding: 0 0 0 34px;
 }
@@ -210,15 +255,9 @@ main .titl {
 
 .numbers3 i {
     font-size: 48px;
-    /*position: absolute;
-    top: 103px;
-    left: 700px;*/
 }
 
 .numbers33 {
-    /*position: absolute;
-    top: 86px;
-    left: 768px;*/
     float: right;
     padding: 0 0 0 34px;
 }
@@ -241,16 +280,9 @@ main .titl {
 
 .numbers4 i {
     font-size: 48px;
-    /*position: absolute;
-    top: 103px;
-    left: 1002px;*/
 }
 
 .numbers44 {
-    /* position: absolute;
-    top: 86px;
-    left: 1068px;
-    */
     float: right;
     padding: 0 0 0 34px;
 }
