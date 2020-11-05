@@ -9,10 +9,12 @@ body {
 
 
 header {
-    /*background: #e9e9e9;*/
+    background: #e9e9e9;
     width: auto;
     height: 670px;
-    background-image: url(img/mac.png);
+    /*background-image: url(../img/mac.png);
+    background-repeat: no-repeat;
+    background-size: auto;*/
 }
 
 
