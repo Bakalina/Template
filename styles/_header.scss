@@ -1,0 +1,30 @@
+/* start block header */
+
+.header {
+    @extend %block-width;
+    overflow: hidden;
+    position: relative;
+
+    .header-nav {
+        position: absolute;
+        top: 40px;
+        right: 405px;
+
+        li {
+            display: inline-block;
+            padding:0 20px 39px 20px;
+            a {
+                text-decoration: none;
+                font-style: normal;
+                font-weight: 500;
+                font-size: $text-size+2;
+                line-height: 20px;
+                color: #ffffff;
+            }
+
+            &:hover {
+                border-bottom:2px solid #ffffff ;
+            }
+        }
+    }
+}

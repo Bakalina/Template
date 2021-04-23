@@ -1,0 +1,28 @@
+.header {
+  max-width: 1920px;
+  margin: 0 auto; }
+
+/* start block header */
+.header {
+  overflow: hidden;
+  position: relative; }
+  .header .header-nav {
+    position: absolute;
+    top: 40px;
+    right: 405px; }
+    .header .header-nav li {
+      display: inline-block;
+      padding: 0 20px 39px 20px; }
+      .header .header-nav li a {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ffffff; }
+      .header .header-nav li:hover {
+        border-bottom: 2px solid #ffffff; }
+
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; }

@@ -1,0 +1,13 @@
+%block-width{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+$text-size: 14px;
+
+@import 'header';
+
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
