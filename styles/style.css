@@ -2,27 +2,70 @@
   max-width: 1920px;
   margin: 0 auto; }
 
-/* start block header */
+/* Start  header */
 .header {
   overflow: hidden;
   position: relative; }
   .header .header-nav {
     position: absolute;
     top: 40px;
-    right: 405px; }
+    right: 18%; }
     .header .header-nav li {
       display: inline-block;
       padding: 0 20px 39px 20px; }
       .header .header-nav li a {
         text-decoration: none;
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
         color: #ffffff; }
       .header .header-nav li:hover {
         border-bottom: 2px solid #ffffff; }
+  .header span {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    border: 1px solid rgba(161, 161, 161, 0.5); }
+  .header .header-info {
+    position: absolute;
+    top: 319px;
+    left: 50%;
+    transform: translate(-50%); }
+    .header .header-info p:first-of-type {
+      text-align: center;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffffff; }
+    .header .header-info p:last-of-type {
+      margin-top: 20px;
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 64px;
+      text-align: center;
+      color: #FFFFFF; }
+    .header .header-info button {
+      margin-left: 50%;
+      transform: translate(-50%);
+      margin-top: 50px;
+      background: #4985FF;
+      box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+      border-radius: 30px;
+      border: 0;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+      width: 200px;
+      height: 45px; }
+      .header .header-info button:focus {
+        outline: none; }
+      .header .header-info button:hover {
+        cursor: pointer; }
 
+/* End header */
 * {
   margin: 0;
   font-family: 'Montserrat', sans-serif; }
