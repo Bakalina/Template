@@ -2,6 +2,26 @@
   max-width: 1920px;
   margin: 0 auto; }
 
+.header .header-info button, .services button {
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 50px;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  border: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 200px;
+  height: 45px; }
+  .header .header-info button:focus, .services button:focus {
+    outline: none; }
+  .header .header-info button:hover, .services button:hover {
+    cursor: pointer; }
+
 /* Start  header */
 .header {
   overflow: hidden;
@@ -45,25 +65,6 @@
       line-height: 64px;
       text-align: center;
       color: #FFFFFF; }
-    .header .header-info button {
-      margin-left: 50%;
-      transform: translate(-50%);
-      margin-top: 50px;
-      background: #4985FF;
-      box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
-      border-radius: 30px;
-      border: 0;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
-      text-align: center;
-      color: #FFFFFF;
-      width: 200px;
-      height: 45px; }
-      .header .header-info button:focus {
-        outline: none; }
-      .header .header-info button:hover {
-        cursor: pointer; }
 
 /* End header */
 .services {
@@ -78,18 +79,50 @@
     line-height: 53px;
     text-align: center;
     color: #323232; }
-  .services p {
+  .services > p {
     margin-top: 50px;
     font-size: 16px;
     line-height: 25px;
     text-align: center;
     color: #999999; }
-  .services .services__item .services__elipse-one {
-    width: 110px;
-    height: 110px;
-    border: 1px solid #E0E0E0;
-    box-sizing: border-box;
-    border-radius: 50%; }
+  .services .services__item-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px; }
+    .services .services__item-block .services__item {
+      display: flex; }
+      .services .services__item-block .services__item .services__elipse-one {
+        width: 110px;
+        height: 110px;
+        border: 1px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .services .services__item-block .services__item .services__elipse-one .services__elipse-two {
+          width: 90px;
+          height: 90px;
+          border: 1px solid #4985FF;
+          box-sizing: border-box;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+      .services .services__item-block .services__item h6 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        margin: 45px 0 0 17px; }
+      .services .services__item-block .services__item p {
+        display: block;
+        max-width: 222px;
+        margin: 12px 0 0 17px;
+        font-size: 14px;
+        line-height: 22px;
+        color: #999999; }
+  .services button {
+    margin-top: 55px; }
 
 * {
   margin: 0;

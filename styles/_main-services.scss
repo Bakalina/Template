@@ -13,23 +13,67 @@
         color: #323232;
     }
 
-    p {
+    >p {
+
         margin-top: 50px;
         font-size: $text-size;
         line-height: 25px;
         text-align: center;
         color: #999999;
+
     }
 
-    .services__item {
-        .services__elipse-one {
-            width: 110px;
-            height: 110px;
-            border: 1px solid #E0E0E0;
-            box-sizing: border-box;
-            border-radius: 50%;
+    .services__item-block {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+
+        .services__item {
+            display: flex;
+
+            .services__elipse-one {
+                width: 110px;
+                height: 110px;
+                border: 1px solid #E0E0E0;
+                box-sizing: border-box;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .services__elipse-two {
+                    width: 90px;
+                    height: 90px;
+                    border: 1px solid #4985FF;
+                    box-sizing: border-box;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            h6 {
+                font-weight: 600;
+                font-size: $text-size+2;
+                line-height: 22px;
+                margin: 45px 0 0 17px;
+            }
+
+            p {
+                display: block;
+                max-width: 222px;
+                margin: 12px 0 0 17px;
+                font-size: $text-size/2+6;
+                line-height: 22px;
+                color: #999999;
+            }
+
         }
     }
 
-
+    button {
+        @extend %button;
+        margin-top: 55px;
+    }
 }
