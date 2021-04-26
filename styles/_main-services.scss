@@ -1,3 +1,4 @@
+/* start main-services */
 .services {
     margin: 0 auto;
     max-width: 1113px;
@@ -73,7 +74,9 @@
     }
 
     button {
-        @extend %button;
+        @include button;
         margin-top: 55px;
     }
 }
+
+/* end main-services */

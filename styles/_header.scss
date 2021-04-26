@@ -1,7 +1,7 @@
 /* Start  header */
 
 .header {
-    @extend %block-width;
+    @include block-width;
     overflow: hidden;
     position: relative;
 
@@ -52,7 +52,7 @@
         }
 
         & p:last-of-type {
-            margin-top: $size*2;
+            margin-top: 20px;
             font-weight: 800;
             font-size: $text-size+32;
             line-height: 64px;
@@ -61,7 +61,7 @@
         }
 
         button {
-            @extend %button;
+            @include button;
         }
     }
 }

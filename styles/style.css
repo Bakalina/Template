@@ -1,29 +1,11 @@
-.header {
-  max-width: 1920px;
-  margin: 0 auto; }
-
-.header .header-info button, .services button {
-  margin-left: 50%;
-  transform: translate(-50%);
-  margin-top: 50px;
-  background: #4985FF;
-  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
-  border-radius: 30px;
-  border: 0;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #FFFFFF;
-  width: 200px;
-  height: 45px; }
-  .header .header-info button:focus, .services button:focus {
-    outline: none; }
-  .header .header-info button:hover, .services button:hover {
-    cursor: pointer; }
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; }
 
 /* Start  header */
 .header {
+  max-width: 1920px;
+  margin: 0 auto;
   overflow: hidden;
   position: relative; }
   .header .header-nav {
@@ -65,8 +47,28 @@
       line-height: 64px;
       text-align: center;
       color: #FFFFFF; }
+    .header .header-info button {
+      margin-left: 50%;
+      transform: translate(-50%);
+      margin-top: 50px;
+      background: #4985FF;
+      box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+      border-radius: 30px;
+      border: 0;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+      width: 200px;
+      height: 45px; }
+      .header .header-info button:focus {
+        outline: none; }
+      .header .header-info button:hover {
+        cursor: pointer; }
 
 /* End header */
+/* start main-services */
 .services {
   margin: 0 auto;
   max-width: 1113px;
@@ -122,8 +124,82 @@
         line-height: 22px;
         color: #999999; }
   .services button {
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 200px;
+    height: 45px;
     margin-top: 55px; }
+    .services button:focus {
+      outline: none; }
+    .services button:hover {
+      cursor: pointer; }
 
-* {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif; }
+/* end main-services */
+/* start main-about-us */
+.about-us {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #F6F6F8;
+  margin-top: 105px; }
+  .about-us .about-us__head {
+    display: flex;
+    justify-content: center; }
+    .about-us .about-us__head .about-us__text {
+      max-width: 489px;
+      margin-top: 152px; }
+      .about-us .about-us__head .about-us__text h4 {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 53px;
+        color: #323232; }
+      .about-us .about-us__head .about-us__text p {
+        font-size: 16px;
+        line-height: 25px;
+        color: #999999;
+        margin: 40px 0 30px 0; }
+      .about-us .about-us__head .about-us__text a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #4985FF; }
+    .about-us .about-us__head .about-us__img {
+      margin: 100px 0 90px 121px;
+      overflow: hidden;
+      border-radius: 30px;
+      max-width: 500px;
+      height: auto; }
+  .about-us span {
+    display: block;
+    border: 1px solid #E0E0E0;
+    max-width: 1110px;
+    margin: 0 auto; }
+  .about-us .about-us__footer {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center; }
+    .about-us .about-us__footer .about-us__numbers {
+      margin: 0 50px 70px; }
+      .about-us .about-us__footer .about-us__numbers img {
+        margin-top: 8px; }
+      .about-us .about-us__footer .about-us__numbers h6 {
+        font-size: 36px;
+        font-weight: normal;
+        color: #000000;
+        float: right;
+        margin-left: 20px; }
+      .about-us .about-us__footer .about-us__numbers p {
+        font-size: 16px;
+        line-height: 25px;
+        color: #999999; }
+
+/* end main-about-us */
