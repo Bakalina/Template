@@ -1,0 +1,45 @@
+/* start all-projects */
+
+.all-projects {
+    @include block-width;
+    background: #F6F6F8;
+    margin-top: 520px;
+
+    h3 {
+        padding-top: 91px;
+        font-weight: bold;
+        font-size: $text-size+20;
+        line-height: 53px;
+        text-align: center;
+        color: #000000;
+    }
+
+    p {
+        font-size: $text-size;
+        line-height: 25px;
+        text-align: center;
+        color: #999999;
+        margin-top: 50px;
+    }
+
+    .all-projects__block-item {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1113px;
+        margin: 0 auto;
+        margin-top: 70px;
+
+        .all-projects__item {
+            overflow: hidden;
+            border-radius: 10px;
+        }
+    }
+
+    button {
+        @include button;
+        margin-bottom: 130px;
+    }
+}
+
+
+/* end all-projects */
