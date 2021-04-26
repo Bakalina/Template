@@ -177,7 +177,7 @@
       overflow: hidden;
       border-radius: 30px;
       max-width: 500px;
-      height: auto; }
+      height: 380px; }
   .about-us span {
     display: block;
     border: 1px solid #E0E0E0;
@@ -203,3 +203,79 @@
         color: #999999; }
 
 /* end main-about-us */
+/* start all-services */
+.all-services {
+  max-width: 1920px;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+  height: 490px; }
+  .all-services .all-services__head {
+    max-width: 1113px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    .all-services .all-services__head h3 {
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 53px;
+      color: #FFFFFF;
+      margin-top: 100px; }
+    .all-services .all-services__head button {
+      margin-left: 50%;
+      transform: translate(-50%);
+      margin-top: 50px;
+      background: #4985FF;
+      box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+      border-radius: 30px;
+      border: 0;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: #FFFFFF;
+      width: 200px;
+      height: 45px;
+      transform: none;
+      margin-left: 0;
+      margin-top: 120px; }
+      .all-services .all-services__head button:focus {
+        outline: none; }
+      .all-services .all-services__head button:hover {
+        cursor: pointer; }
+  .all-services .all-services__block-item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1113px;
+    margin: 0 auto;
+    margin-top: 70px; }
+    .all-services .all-services__block-item .all-services__item {
+      max-width: 350px; }
+      .all-services .all-services__block-item .all-services__item .all-serveces__img {
+        border-radius: 10px;
+        overflow: hidden; }
+      .all-services .all-services__block-item .all-services__item h4 {
+        margin-top: 30px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000; }
+        .all-services .all-services__block-item .all-services__item h4 span {
+          color: #4985FF; }
+      .all-services .all-services__block-item .all-services__item p {
+        font-size: 16px;
+        line-height: 25px;
+        color: #999999;
+        margin: 30px 0; }
+      .all-services .all-services__block-item .all-services__item a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #4985FF; }
+  .all-services > span {
+    display: block;
+    border: 1px solid #E0E0E0;
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 85px; }
+
+/* end all-services */

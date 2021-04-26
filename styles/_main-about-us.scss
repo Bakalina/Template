@@ -39,15 +39,12 @@
             overflow: hidden;
             border-radius: 30px;
             max-width: 500px;
-            height: auto;
+            height: 380px;
         }
     }
 
     span {
-        display: block;
-        border: 1px solid #E0E0E0;
-        max-width: 1110px;
-        margin: 0 auto;
+        @include line;
     }
 
     .about-us__footer {
