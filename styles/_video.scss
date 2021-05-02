@@ -71,6 +71,10 @@
             }
         }
     }
+
+    span {
+        @include line;
+    }
 }
 
 /* end video */
