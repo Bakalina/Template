@@ -390,5 +390,11 @@
         vertical-align: middle;
         display: inline-block;
         margin-right: 21px; }
+  .video span {
+    display: block;
+    border: 1px solid #E0E0E0;
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 120px; }
 
 /* end video */
