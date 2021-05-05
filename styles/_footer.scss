@@ -1,0 +1,57 @@
+footer {
+    @include block-width;
+    background-color: #F6F6F8;
+    margin-top: 85px;
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 70px;
+
+        h5 {
+            font-weight: 600;
+            font-size: $text-size+2;
+            line-height: 22px;
+            margin-bottom: 35px;
+        }
+
+        li {
+            margin-bottom: 30px;
+            list-style-image: url(/img/Vector.png);
+
+            a {
+                text-decoration: none;
+                font-weight: normal;
+                font-size: 14px;
+                color: #999999;
+            }
+        }
+
+        .container__link1 {
+            li {
+                list-style: none;
+
+                img {
+                    padding-right: 15px;
+                    vertical-align: bottom;
+                }
+            }
+        }
+    }
+
+    span {
+        @include line;
+        margin-top: 40px;
+    }
+
+    p {
+        padding: 30px 0;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
+        text-align: center;
+        color: #999999;
+    }
+}

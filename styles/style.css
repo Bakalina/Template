@@ -450,3 +450,46 @@
       color: #FFFFFF; }
       .subcribe form button:focus {
         outline: none; }
+
+footer {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #F6F6F8;
+  margin-top: 85px; }
+  footer .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px; }
+    footer .container h5 {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 35px; }
+    footer .container li {
+      margin-bottom: 30px;
+      list-style-image: url(/img/Vector.png); }
+      footer .container li a {
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 14px;
+        color: #999999; }
+    footer .container .container__link1 li {
+      list-style: none; }
+      footer .container .container__link1 li img {
+        padding-right: 15px;
+        vertical-align: bottom; }
+  footer span {
+    display: block;
+    border: 1px solid #E0E0E0;
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 40px; }
+  footer p {
+    padding: 30px 0;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999; }
