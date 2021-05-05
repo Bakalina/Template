@@ -398,6 +398,7 @@
     margin-top: 120px; }
 
 /* end video */
+/* start main-subcribe */
 .subcribe {
   max-width: 1920px;
   margin: 0 auto;
@@ -451,6 +452,8 @@
       .subcribe form button:focus {
         outline: none; }
 
+/* end main-subcribe */
+/* start footer */
 footer {
   max-width: 1920px;
   margin: 0 auto;
@@ -493,3 +496,5 @@ footer {
     line-height: 21px;
     text-align: center;
     color: #999999; }
+
+/* end footer */
