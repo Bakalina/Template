@@ -91,6 +91,11 @@
     display: flex;
     justify-content: space-between;
     margin-top: 70px; }
+    @media screen and (max-width: 800px) {
+      .services .services__item-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
     .services .services__item-block .services__item {
       display: flex; }
       .services .services__item-block .services__item .services__elipse-one {
@@ -154,6 +159,11 @@
   .about-us .about-us__head {
     display: flex;
     justify-content: center; }
+    @media screen and (max-width: 800px) {
+      .about-us .about-us__head {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
     .about-us .about-us__head .about-us__text {
       max-width: 489px;
       margin-top: 152px; }
@@ -178,6 +188,9 @@
       border-radius: 30px;
       max-width: 500px;
       height: 380px; }
+      @media screen and (max-width: 800px) {
+        .about-us .about-us__head .about-us__img {
+          margin: 0 auto; } }
   .about-us span {
     display: block;
     border: 1px solid #E0E0E0;
@@ -187,6 +200,11 @@
     margin-top: 70px;
     display: flex;
     justify-content: center; }
+    @media screen and (max-width: 800px) {
+      .about-us .about-us__footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
     .about-us .about-us__footer .about-us__numbers {
       margin: 0 50px 70px; }
       .about-us .about-us__footer .about-us__numbers img {
@@ -208,12 +226,17 @@
   max-width: 1920px;
   margin: 0 auto;
   background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
-  height: 490px; }
+  max-height: 490px; }
   .all-services .all-services__head {
     max-width: 1113px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between; }
+    @media screen and (max-width: 800px) {
+      .all-services .all-services__head {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
     .all-services .all-services__head h3 {
       font-weight: bold;
       font-size: 36px;
@@ -248,6 +271,11 @@
     max-width: 1113px;
     margin: 0 auto;
     margin-top: 70px; }
+    @media screen and (max-width: 800px) {
+      .all-services .all-services__block-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
     .all-services .all-services__block-item .all-services__item {
       max-width: 350px; }
       .all-services .all-services__block-item .all-services__item .all-serveces__img {
@@ -285,6 +313,9 @@
   margin: 0 auto;
   background: #F6F6F8;
   margin-top: 520px; }
+  @media screen and (max-width: 800px) {
+    .all-projects {
+      margin-top: 1800px; } }
   .all-projects h3 {
     padding-top: 91px;
     font-weight: bold;
@@ -304,6 +335,11 @@
     max-width: 1113px;
     margin: 0 auto;
     margin-top: 70px; }
+    @media screen and (max-width: 800px) {
+      .all-projects .all-projects__block-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
     .all-projects .all-projects__block-item .all-projects__item {
       overflow: hidden;
       border-radius: 10px; }
@@ -364,8 +400,12 @@
     .video .video__play video {
       box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
       border-radius: 10px;
-      width: 960px;
-      height: 420px; }
+      max-width: 960px;
+      max-height: 420px; }
+      @media screen and (max-width: 800px) {
+        .video .video__play video {
+          width: 480px;
+          height: auto; } }
     .video .video__play .video__btn-play {
       background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
       box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
@@ -465,6 +505,11 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-top: 70px; }
+    @media screen and (max-width: 800px) {
+      footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
     footer .container h5 {
       font-weight: 600;
       font-size: 18px;
