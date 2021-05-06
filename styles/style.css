@@ -389,6 +389,11 @@
     font-size: 16px;
     line-height: 25px;
     color: #FFFFFF; }
+    @media screen and (max-width: 800px) {
+      .video p {
+        position: absolute;
+        top: 240px;
+        left: 50%; } }
   .video .video__play {
     position: absolute;
     top: 220px;
@@ -397,6 +402,11 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     overflow: hidden; }
+    @media screen and (max-width: 800px) {
+      .video .video__play {
+        position: absolute;
+        top: 300px;
+        left: 50%; } }
     .video .video__play video {
       box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
       border-radius: 10px;
